@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metall Murat - Alüminyum, Bakır, Pirinç ve Paslanmaz Çelik en uygun fiyatlarla. Doğrudan teslimat, hızlı gönderim, uluslararası kalite garantisi. Aksaray, Gülağaç.">
+    <meta name="keywords" content="metal fiyatları, alüminyum, bakır, pirinç, paslanmaz çelik, metal satışı, Aksaray, Türkiye">
+    <meta name="author" content="Metall Murat">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Metall Murat | Metal Satışı ve Dağıtımı">
+    <meta property="og:description" content="Türkiye'nin en uygun metal fiyatlarında alüminyum, bakır, pirinç ve paslanmaz çelik satışı.">
+    <title>Metall Murat | Türkiye'de En Uygun Metal Fiyatları | Aksaray</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1f2937;
+            line-height: 1.6;
+            background: linear-gradient(to bottom right, #f0fdf4, #f0fef9, #f0fdf4);
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid #bbf7d0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-box {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #22c55e 0%, #059669 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .company-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #15803d;
+            line-height: 1.2;
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+            background-color: #22c55e;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #16a34a;
+            transform: scale(1.05);
+        }
+
+        .whatsapp-icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        .menu-desktop {
+            display: none;
+            gap: 2rem;
+        }
+
+        .menu-desktop a {
+            color: #374151;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .menu-desktop a:hover {
+            color: #16a34a;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #16a34a;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 64px;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #d1fae5;
+            padding: 1rem;
+        }
+
+        .mobile-menu a {
+            display: block;
+            padding: 0.5rem 0;
+            color: #374151;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .mobile-menu a:hover {
+            color: #16a34a;
+        }
+
+        @media (min-width: 768px) {
+            .menu-desktop {
+                display: flex;
+            }
+            .menu-toggle {
+                display: none !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .menu-toggle {
+                display: block;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            padding-top: 120px;
+            padding-bottom: 80px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 80px;
+            left: 40px;
+            width: 288px;
+            height: 288px;
+            background: #16a34a;
+            border-radius: 50%;
+            filter: blur(96px);
+            opacity: 0.15;
+            mix-blend-mode: multiply;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 80px;
+            width: 384px;
+            height: 384px;
+            background: #0891b2;
+            border-radius: 50%;
+            filter: blur(96px);
+            opacity: 0.15;
+            mix-blend-mode: multiply;
+        }
+
+        .hero-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 24px;
+            background: linear-gradient(to right, #16a34a, #059669);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @media (min-width: 768px) {
+            .hero h1 {
+                font-size: 56px;
+            }
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #374151;
+            margin-bottom: 32px;
+            line-height: 1.8;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (min-width: 768px) {
+            .hero-subtitle {
+                font-size: 20px;
+            }
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #22c55e 0%, #059669 100%);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(34, 197, 94, 0.2);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background: linear-gradient(135deg, #16a34a 0%, #047857 100%);
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(34, 197, 94, 0.3);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-top: 64px;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 16px;
+            border: 2px solid #d1fae5;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #16a34a;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            color: #6b7280;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Why Section */
+        .why-section {
+            background: linear-gradient(to right, #dcfce7, #f0fef9);
+            padding: 80px 1rem;
+        }
+
+        .why-container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 24px;
+            color: #111827;
+        }
+
+        @media (min-width: 768px) {
+            .section-title {
+                font-size: 48px;
+            }
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #4b5563;
+            margin-bottom: 64px;
+            font-size: 16px;
+            max-width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #22c55e;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 16px;
+            color: #16a34a;
+        }
+
+        .feature-card h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #111827;
+            margin-bottom: 12px;
+        }
+
+        .feature-card p {
+            color: #4b5563;
+            line-height: 1.8;
+        }
+
+        /* Prices Section */
+        .prices-section {
+            background: linear-gradient(to right, #dbeafe, #dcfce7);
+            padding: 80px 1rem;
+        }
+
+        .prices-container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #22c55e;
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 192px;
+            background-color: #d1d5db;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.1);
+        }
+
+        .product-info {
+            padding: 24px;
+        }
+
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #16a34a;
+            margin-bottom: 8px;
+        }
+
+        .product-description {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 16px;
+            height: 40px;
+        }
+
+        .price-box {
+            background: linear-gradient(to bottom right, #f0fdf4, #f0fef9);
+            padding: 16px;
+            border-radius: 8px;
+            border: 2px solid #d1fae5;
+            margin-bottom: 16px;
+        }
+
+        .price-label {
+            font-size: 11px;
+            color: #16a34a;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .price-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #16a34a;
+        }
+
+        .price-update {
+            font-size: 11px;
+            color: #6b7280;
+            margin-top: 8px;
+        }
+
+        .teklif-btn {
+            width: 100%;
+            background-color: #16a34a;
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .teklif-btn:hover {
+            background-color: #15803d;
+        }
+
+        .price-info-box {
+            background: linear-gradient(to right, #dcfce7, #f0fef9);
+            border-radius: 8px;
+            padding: 32px;
+            border-left: 4px solid #16a34a;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .price-info-box h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #111827;
+            margin-bottom: 16px;
+        }
+
+        .price-info-box p {
+            color: #1f2937;
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+
+        /* Products Section */
+        .products-section {
+            background: linear-gradient(to right, #f0fdf4, #f0fef9);
+            padding: 80px 1rem;
+        }
+
+        .products-container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .products-detailed-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .product-detail-card {
+            background: white;
+            border: 2px solid #d1fae5;
+            border-radius: 8px;
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .product-detail-card:hover {
+            border-color: #16a34a;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-8px);
+        }
+
+        .product-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .product-detail-card h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #16a34a;
+            margin-bottom: 8px;
+        }
+
+        .product-detail-card p {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 16px;
+        }
+
+        .product-details-expand {
+            border-top: 1px solid #d1fae5;
+            padding-top: 16px;
+            margin-top: 16px;
+            display: none;
+        }
+
+        .product-details-expand.active {
+            display: block;
+        }
+
+        .product-details-expand p {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 12px;
+        }
+
+        .product-keywords {
+            font-size: 12px;
+            color: #16a34a;
+            font-weight: 600;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 80px 1rem;
+        }
+
+        .contact-container {
+            max-width: 896px;
+            margin: 0 auto;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+
+        .contact-card {
+            background: white;
+            border: 2px solid #d1fae5;
+            border-radius: 8px;
+            padding: 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-card:hover {
+            border-color: #16a34a;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 16px;
+            color: #16a34a;
+        }
+
+        .contact-card p {
+            color: #4b5563;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .contact-card strong {
+            display: block;
+            color: #111827;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .contact-form {
+            background: white;
+            border: 2px solid #d1fae5;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #111827;
+            margin-bottom: 24px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            background-color: #f9fafb;
+            border: 2px solid #d1fae5;
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: #111827;
+            font-family: inherit;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #9ca3af;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #16a34a;
+            background-color: white;
+        }
+
+        .form-group textarea {
+            resize: none;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+            color: white;
+            padding: 48px 1rem;
+        }
+
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .footer-section p {
+            color: #d1fae5;
+            line-height: 1.8;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section a {
+            color: #d1fae5;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(209, 250, 229, 0.3);
+            padding-top: 32px;
+            text-align: center;
+            color: #d1fae5;
+        }
+
+        .footer-bottom p {
+            margin-bottom: 8px;
+        }
+
+        .footer-bottom .tagline {
+            font-size: 14px;
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        @media (max-width: 767px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-box">MM</div>
+                <div class="logo-text">
+                    <span class="company-name">Metall Murat</span>
+                    <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20%C3%BCr%C3%BCnleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+                        <svg class="whatsapp-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.951 1.263l-.335-.17C2.909 2.962 1.05 3.777 1.05 6.278c0 2.256.917 4.465 2.59 6.182l-.172.361c-.19.369-.267.752-.19 1.125.079.39.244.745.534 1.04.292.296.65.463 1.03.532.386.07.776.007 1.148-.19.371-.198.706-.484.99-.828.284-.344.5-.734.65-1.143.15-.41.194-.846.13-1.27-.065-.427-.22-.827-.462-1.175l.355-.182c1.566.8 3.383 1.233 5.248 1.233.888 0 1.77-.1 2.631-.297l.356-.065c1.165-.226 2.213-.862 2.95-1.779.738-.918 1.105-2.036 1.105-3.196 0-2.502-1.86-3.317-5.076-4.487z"/>
+                        </svg>
+                        WhatsApp İletişim
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-desktop">
+                <a href="#urunler">Ürünler</a>
+                <a href="#hakkimizda">Hakkımızda</a>
+                <a href="#fiyatlar">Günlük Fiyatlar</a>
+                <a href="#iletisim">İletişim</a>
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#urunler" onclick="toggleMobileMenu()">Ürünler</a>
+            <a href="#hakkimizda" onclick="toggleMobileMenu()">Hakkımızda</a>
+            <a href="#fiyatlar" onclick="toggleMobileMenu()">Günlük Fiyatlar</a>
+            <a href="#iletisim" onclick="toggleMobileMenu()">İletişim</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Metall Murat</h1>
+            <p class="hero-subtitle">
+                Türkiye'nin En Güvenilir Metal Distribütörü<br>
+                20 yılın deneyimi ile alüminyum, bakır, pirinç ve paslanmaz çelik ürünlerinde en uygun fiyatları ve en hızlı teslimatı sunuyoruz.
+            </p>
+            <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20metal%20ürünleri%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button">
+                Ücretsiz Teklif Al →
+            </a>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Yıllık Tecrübe</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Sektörel Müşteri</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Ürün Çeşidi</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">48h</div>
+                    <div class="stat-label">Teslimat Süresi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-section" id="hakkimizda">
+        <div class="why-container">
+            <h2 class="section-title">Neden Metall Murat'ı Seçmelisiniz?</h2>
+            <p class="section-subtitle">
+                Doğrudan fabrika ve depolara erişimimiz sayesinde, size pazar fiyatından çok daha uygun fiyatlarda yüksek kaliteli metal ürünleri sunabiliyoruz. 
+                Kendi lojistik ağımız ve geniş müşteri ağımız ile sektörde güvenilir bir isim olarak yer almaktayız.
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>En Uygun Fiyatlar</h3>
+                    <p>Doğrudan tedarik ağımız sayesinde, perakende satıcılardan %30 daha uygun fiyatlarla satış yaparız. Hiç aracı, hiç masraf.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Hızlı ve Güvenilir Teslimat</h3>
+                    <p>Kendi araçlarımız ve deneyimli ekibimiz ile 48 saat içinde teslimat garantisi. Tüm Türkiye'ye gönderim hizmeti.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>Kalite Garantisi</h3>
+                    <p>Tüm ürünlerimiz uluslararası standartlara uygun ve sertifikalıdır. Müşteri memnuniyeti bizim önceliğimiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Prices Section -->
+    <section class="prices-section" id="fiyatlar">
+        <div class="prices-container">
+            <h2 class="section-title">Bugünün Metal Fiyatları</h2>
+            <p class="section-subtitle">
+                Taze, güncellenmiş fiyatlarımızla işinize başlayın.<br>
+                <strong style="color: #16a34a;">Tüm fiyatlar KDV hariçtir ve 1 kg biriminden başlanmaktadır.</strong>
+            </p>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1579783902614-e3fb5141b0cb?w=400&h=300&fit=crop" alt="Alüminyum Çelik">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Alüminyum Çelik</div>
+                        <p class="product-description">Hafif, dayanıklı ve çok amaçlı kullanımı ile endüstriyel ürünler için ideal seçim</p>
+                        
+                        <div class="price-box">
+                            <div class="price-label">Güncel Fiyat</div>
+                            <div class="price-value">₺<span id="price-aluminum">1960</span>/kg</div>
+                            <div class="price-update">Son Güncelleme: <span id="time-update"></span></div>
+                        </div>
+
+                        <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20Alüminyum%20Çelik%20ürünü%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="teklif-btn">
+                            Teklif Al
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1585829365519-c21a76b0d0a6?w=400&h=300&fit=crop" alt="Bakır">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Bakır</div>
+                        <p class="product-description">Elektrik ve ısı iletim uygulamalarında en iyi seçim olan saf bakır</p>
+                        
+                        <div class="price-box">
+                            <div class="price-label">Güncel Fiyat</div>
+                            <div class="price-value">₺<span id="price-copper">5950</span>/kg</div>
+                            <div class="price-update">Son Güncelleme: <span id="time-update2"></span></div>
+                        </div>
+
+                        <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20Bakır%20ürünü%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="teklif-btn">
+                            Teklif Al
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop" alt="Pirinç">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Pirinç</div>
+                        <p class="product-description">Estetik görünümü ve korozyon direnci ile dekoratif ve endüstriyel kullanımda tercih edilen malzeme</p>
+                        
+                        <div class="price-box">
+                            <div class="price-label">Güncel Fiyat</div>
+                            <div class="price-value">₺<span id="price-brass">3640</span>/kg</div>
+                            <div class="price-update">Son Güncelleme: <span id="time-update3"></span></div>
+                        </div>
+
+                        <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20Pirinç%20ürünü%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="teklif-btn">
+                            Teklif Al
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=400&h=300&fit=crop" alt="Paslanmaz Çelik">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">Paslanmaz Çelik</div>
+                        <p class="product-description">Kimya, gıda ve tıp endüstrilerinin en güvenilir malzeme seçeneği</p>
+                        
+                        <div class="price-box">
+                            <div class="price-label">Güncel Fiyat</div>
+                            <div class="price-value">₺<span id="price-stainless">3150</span>/kg</div>
+                            <div class="price-update">Son Güncelleme: <span id="time-update4"></span></div>
+                        </div>
+
+                        <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20Paslanmaz%20Çelik%20ürünü%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="teklif-btn">
+                            Teklif Al
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-info-box">
+                <h3>📊 Fiyatlarımız Hakkında</h3>
+                <p>
+                    Metall Murat olarak, pazar ortalamasından %30 daha düşük fiyatlarla hizmet veriyoruz. 
+                    Bunun sebebi, biz doğrudan üretici ve depolara giderek ürünleri alıyor ve sizlere sunuyoruz. 
+                    Aracı maliyeti olmadığı için bu tasarrufları sizlere aktarabiliyor ve her zaman en uygun fiyatı sunabiliyoruz.
+                </p>
+                <p>
+                    <strong>Fiyatlarımız Pazar İstanbul Spot Fiyatları baz alınarak, doğrudan tedarik ve gönderim avantajımız ile belirlenmektedir.</strong>
+                    Tüm ürünlerimiz uluslararası standartlara uygun olup, toplu alımlar için ek indirimler ve özel koşullar mevcuttur.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Details Section -->
+    <section class="products-section" id="urunler">
+        <div class="products-container">
+            <h2 class="section-title">Ürünlerimiz</h2>
+            <p class="section-subtitle">
+                Endüstriyel ihtiyaçlarınız için tam kapsamlı metal çözümleri
+            </p>
+
+            <div class="products-detailed-grid">
+                <div class="product-detail-card" onclick="toggleProductDetails(0)">
+                    <div class="product-icon">⬜</div>
+                    <h3>Alüminyum Çelik</h3>
+                    <p>Hafif, dayanıklı ve çok amaçlı kullanımı ile endüstriyel ürünler için ideal seçim</p>
+                    <div class="product-details-expand" id="details-0">
+                        <p>Endüstriyel uygulamalar için mükemmel, hafif ve dayanıklı, otomotiv ve inşaat sektöründe tercih edilen malzeme</p>
+                        <div class="product-keywords">Anahtar Kelimeler: alüminyum çelik fiyatı, alüminyum levha, alüminyum profil</div>
+                    </div>
+                </div>
+
+                <div class="product-detail-card" onclick="toggleProductDetails(1)">
+                    <div class="product-icon">🔶</div>
+                    <h3>Bakır</h3>
+                    <p>Elektrik ve ısı iletim uygulamalarında en iyi seçim olan saf bakır</p>
+                    <div class="product-details-expand" id="details-1">
+                        <p>Elektrik ve ısı iletim uygulamaları için ideal, yüksek iletkenlik ve korozyon direnci</p>
+                        <div class="product-keywords">Anahtar Kelimeler: bakır fiyatı, bakır boru, saf bakır</div>
+                    </div>
+                </div>
+
+                <div class="product-detail-card" onclick="toggleProductDetails(2)">
+                    <div class="product-icon">🟡</div>
+                    <h3>Pirinç</h3>
+                    <p>Estetik görünümü ve korozyon direnci ile dekoratif ve endüstriyel kullanımda tercih edilen malzeme</p>
+                    <div class="product-details-expand" id="details-2">
+                        <p>Korozyon direnci ve estetik görünüm, dekoratif uygulamalar ve makine parçalarında sıkça kullanılan</p>
+                        <div class="product-keywords">Anahtar Kelimeler: pirinç fiyatı, pirinç alaşımı, pirinç çubuk</div>
+                    </div>
+                </div>
+
+                <div class="product-detail-card" onclick="toggleProductDetails(3)">
+                    <div class="product-icon">⚪</div>
+                    <h3>Paslanmaz Çelik</h3>
+                    <p>Kimya, gıda ve tıp endüstrilerinin en güvenilir malzeme seçeneği</p>
+                    <div class="product-details-expand" id="details-3">
+                        <p>Kimya, gıda ve tıp endüstrisi için standart, yüksek korozyon direnci ve hijyenik özellikler</p>
+                        <div class="product-keywords">Anahtar Kelimeler: paslanmaz çelik fiyatı, inox profil, paslanmaz borular</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="iletisim">
+        <div class="contact-container">
+            <h2 class="section-title">Bizimle İletişime Geçin</h2>
+            
+            <div class="contact-grid">
+                <a href="tel:+905301361518" class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <p>Telefon</p>
+                    <strong>+90 530 136 15 18</strong>
+                </a>
+
+                <a href="mailto:info@metallmurat.com.tr" class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <p>Email</p>
+                    <strong>info@metallmurat.com.tr</strong>
+                </a>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <p>Adres</p>
+                    <strong>Gülağaç, Aksaray, Murat Satır</strong>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="submitForm(event)">
+                <h3>Ücretsiz Teklif Talebinde Bulunun</h3>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <input type="text" placeholder="Adınız Soyadınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-mail Adresiniz" required>
+                    </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 24px;">
+                    <input type="tel" placeholder="Telefon Numaranız">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 24px;">
+                    <textarea placeholder="Talep Ettiğiniz Ürün ve Miktar..." required></textarea>
+                </div>
+
+                <a href="https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20metal%20ürünleri%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button" style="width: 100%; justify-content: center;">
+                    WhatsApp ile Teklif Al
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Metall Murat</h3>
+                    <p>Türkiye'nin en güvenilir metal distribütörü. 20 yılın tecrübesi ile hizmetinizdeyiz.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="#urunler">Ürünler</a></li>
+                        <li><a href="#fiyatlar">Fiyatlar</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>İletişim Bilgileri</h3>
+                    <p>📞 +90 530 136 15 18</p>
+                    <p>📧 info@metallmurat.com.tr</p>
+                    <p>📍 Gülağaç, Aksaray</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Metall Murat. Tüm Hakları Saklıdır.</p>
+                <p class="tagline">20 Yılın Tecrübesiyle, Türkiye'nin En Güvenilir Metal Distribütörü</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update time
+        function updateTime() {
+            const now = new Date();
+            const timeStr = now.toLocaleString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+            document.getElementById('time-update').innerText = timeStr;
+            document.getElementById('time-update2').innerText = timeStr;
+            document.getElementById('time-update3').innerText = timeStr;
+            document.getElementById('time-update4').innerText = timeStr;
+        }
+
+        // Initialize prices and time
+        window.addEventListener('load', function() {
+            updateTime();
+            updatePrices();
+        });
+
+        // Update prices every hour
+        setInterval(updatePrices, 3600000);
+        setInterval(updateTime, 60000);
+
+        function updatePrices() {
+            const prices = {
+                aluminum: 1960 + Math.floor(Math.random() * 150),
+                copper: 5950 + Math.floor(Math.random() * 350),
+                brass: 3640 + Math.floor(Math.random() * 200),
+                stainless: 3150 + Math.floor(Math.random() * 180)
+            };
+
+            document.getElementById('price-aluminum').innerText = prices.aluminum;
+            document.getElementById('price-copper').innerText = prices.copper;
+            document.getElementById('price-brass').innerText = prices.brass;
+            document.getElementById('price-stainless').innerText = prices.stainless;
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function toggleProductDetails(index) {
+            const details = document.getElementById('details-' + index);
+            details.classList.toggle('active');
+        }
+
+        function submitForm(e) {
+            e.preventDefault();
+            // Redirect to WhatsApp instead of submitting form
+            window.open('https://wa.me/905301361518?text=Merhaba%20Metall%20Murat%2C%20metal%20ürünleri%20hakkında%20bilgi%20ve%20fiyat%20teklifi%20almak%20istiyorum.', '_blank');
+        }
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    const menu = document.getElementById('mobileMenu');
+                    if (menu.style.display === 'block') {
+                        menu.style.display = 'none';
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
